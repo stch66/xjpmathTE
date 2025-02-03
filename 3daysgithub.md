@@ -82,3 +82,89 @@
 ​		git remote set-url origin git@github.com:stch66/xjpmathTE.git
 
 # DAY2
+
+1. 如何将本地删除的文件同步到 GitHub：
+
+   **删除文件**（你已经完成了这一步）
+
+   通过 Git 告知删除操作 
+
+   git rm READM2E.md
+
+   **提交更改**： 删除操作添加到暂存区后
+
+   git commit -m "delete READ2E.md"
+
+   推送更改到 GitHub
+
+   git push origin main"
+
+2. 查看状态与提交
+
+   修改`README.md`文件内容：
+
+   echo "Learning Git and GitHub!" >> README.md
+
+   查看状态并提交更改：
+
+   git status
+   git add README.md
+   git commit -m "Updated README"
+   git push origin main
+
+3. 学习分支管理
+
+   创建并切换到一个新分支
+
+   git checkout -b new-feature
+
+   修改并提交文件：
+
+   echo "This is a new feature" > feature.txt
+   git add feature.txt
+   git commit -m "Added new feature"
+   git push origin new-feature
+
+4. 合并分支
+
+   切换回主分支并合并分支：
+
+   git checkout main
+   git merge new-feature
+
+   暂存更改
+
+   git stash
+
+   恢复暂存的更改
+
+   git stash pop
+
+5. 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

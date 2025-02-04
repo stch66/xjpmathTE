@@ -23,9 +23,8 @@
 4. 配置git
 
    git config --global user.name "你的名字"
-
-   git config --global user.name "你的名字"
-
+   git config --global user.email "你的电子邮箱"
+   
 5. 注册并了解GitHub界面
 
    在GitHub上创建一个仓库并将其克隆到本地

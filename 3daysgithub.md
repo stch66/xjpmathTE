@@ -142,7 +142,17 @@
 
 # Day 3
 
+​              将所有更改添加到暂存区
 
+ 		git add .
+
+**提交更改**：
+
+git commit -m "Your commit message"
+
+**推送更改到远程仓库**（如果你使用远程仓库如GitHub）
+
+git push origin branch_name
 
 
 
